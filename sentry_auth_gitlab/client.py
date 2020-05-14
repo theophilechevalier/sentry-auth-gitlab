@@ -6,7 +6,6 @@ from sentry.utils import json
 
 from .constants import API_BASE_URL
 
-
 class GitLabApiError(Exception):
     def __init__(self, message='', status=None):
         super(GitLabApiError, self).__init__(message)
